@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    position: absolute;
+    width: 100%;
+}
+
+.heading{
+    padding: 20px 0 0 0;
+    background-color: #1f262d;
+    text-align: center;
+    color: #ffffff;
+    font-size: 4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.owner{
+    font-size: 1em;
+    padding-bottom: 20px;
+}
+
+#logo{
+    width: 100px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+#rightNavigation{
+    /* width: 100%; */
+    position: relative;
+    text-align: right;
+    bottom: 55px;
+    padding-right: 40px;
+}
+
+#logout{
+    padding: 0 50px;
+    margin-bottom: 10px ;
+}
+
+#dateTime{
+    /* position: relative; */
+    font-size: 1.4em;
+    /* bottom: 30px; */
+    /* text-align: right; */
+    color: #fff;
+}
+
+#list{
+    margin-top: 30px;
+    padding: 30px 50px 0 50px;
+    font-size: 1em;
+}
+#list li{
+    padding: 10px;
+    width: auto;
+    font-size: 1.2em;
+}
+#list li:hover{
+    font-size: 1.4em;
+}
+
+#add{
+    text-align: center;
+    margin-left: 30px;
+    padding: 8px 15px;
+    color: #fff;
+    background-color: #55a4ab;
+    border: 2px solid #55a4ab;
+    border-radius: 25px;
+}
+
+#add:hover{
+    transform: scale(1.2);
+}
+
+#takeInput{
+    width: 100px;
+    height: 100px;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+    display: none;
+}
+
+#inputBox{
+    transform: scale(1.5);
+}
+
+@media (max-width: 768px) {
+    #dateTime{
+        display: none;
+    }
+
+    .heading{
+        font-size: 2.3em;
+    }
+
+    .owner{
+        font-size: 1.04em;
+    }
+
+    #logo{
+        width: 70px;
+    }
+
+    #rightNavigation{
+        bottom: 20px;
+        padding-right: 25px;
+    }
+
+    #logout{
+        width: 40px;
+        margin-bottom: 0px;
+        padding-right: 0px;
+    }
+}
