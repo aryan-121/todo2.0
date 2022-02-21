@@ -16,7 +16,7 @@ setInterval(()=>{
 },1000);
 
 logout.addEventListener('click', ()=>{
-    window.location.href = 'auth.html';
+    window.location.href = 'index.html';
 })
 
 add.addEventListener("click", ()=>{
